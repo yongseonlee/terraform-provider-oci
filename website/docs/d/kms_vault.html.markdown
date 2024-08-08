@@ -70,5 +70,5 @@ The following attributes are exported:
 * `restore_trigger` - When flipped, triggers restore if restore options are provided. Values of 0 or 1 are supported
 * `time_created` - The date and time this vault was created, expressed in [RFC 3339](https://tools.ietf.org/html/rfc3339) timestamp format.  Example: `2018-04-03T21:10:29.600Z` 
 * `time_of_deletion` - An optional property to indicate when to delete the vault, expressed in [RFC 3339](https://tools.ietf.org/html/rfc3339) timestamp format. Example: `2018-04-03T21:10:29.600Z` 
-* `vault_type` - The type of vault. Each type of vault stores the key with different degrees of isolation and has different options and pricing.
+* `vault_type` - The type of vault. Each type of vault stores the key with different degrees of isolation and has different options and pricing. Values of "DEFAULT", "VIRTUAL_PRIVATE", "EXTERNAL" are supported
 
